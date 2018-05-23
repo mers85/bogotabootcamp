@@ -1,2 +1,2 @@
 # bogotabootcamp
-ejecicios y archivos de clases
+ejercicios y archivos de clases
