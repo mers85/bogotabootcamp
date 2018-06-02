@@ -1,18 +1,18 @@
 puts "saluton"
 
-puts "Write your name"
+puts "Kiu estas via nomo"
 
 name = gets.chomp
 
-puts "which is your age?"
+puts "Kiom vi agxas"
 
 age = gets.chomp
 
-puts "Hi, #{name} who is #{age} years old!"
+puts "Saluton, #{name} kiu havas #{age} jarojn"
 
 
-puts "You will be 75 years old in #{75 - age.to_i} years!"
+puts "Vi havos 75 jarojn post #{75 - age.to_i} jaroj!"
 
-puts "It is #{name.downcase == "jeff"} that your name is Jeff."
+puts "Cxu estas #{name.downcase == "jeff"} ke via nomo estas Jeff."
 
-puts "Good bye!"
+puts "Gxis!"
