@@ -59,7 +59,7 @@ while continue
         aparment_name = gets.chomp
         chosen_aparment = bulding_1.find_aparment(aparment_name)
         chosen_tenant= chosen_aparment.find_tenant(tenant_name)
-        if chosen_tenant == nil
+        if chosen_tenant.nil?
           puts "This tenant isn't in this apartment"
         else
           chosen_aparment.remove_tenant(chosen_tenant)
